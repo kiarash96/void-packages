@@ -1,0 +1,14 @@
+# Template file for 'gnome-shell-extension-dash-to-panel'
+pkgname=gnome-shell-extension-dash-to-panel
+version=73
+revision=1
+wrksrc=dash-to-panel-${version}
+build_style=gnu-makefile
+hostmakedepends="gettext glib"
+depends="gnome-shell>=3.18"
+short_desc="Extension for GNOME shell to combine the dash and main panel"
+maintainer="Kiarash Korki <kiarash.96@gmail.com>"
+license="GPL-2.0-or-later"
+homepage="https://github.com/home-sweet-gnome/dash-to-panel"
+distfiles="${homepage}/archive/v${version}.tar.gz"
+checksum=f58617f9691779dfa34f4fdd4fcb1e009cc4e60c5b0b4eca203292c9c823a1cf
